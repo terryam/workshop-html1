@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form contact</title>
+</head>
+<body>
+    <form action="/send" method="POST">
+        <label for="nom_personne">Nom</label><br>
+        <input type="text" name="nom" id="nom_prs"><br>
+    
+        <label for="prenom_personne">Prénom</label><br>
+        <input type="text" name="prenom" id="prenom_prs"><br>
+    
+        <label for="tel">Téléphone</label><br>
+        <input type="tel" name="téléphone"><br>
+    
+        <label for="email">Email</label><br>
+        <input type="email" name="Email"><br>
+    
+        <label for="contact_souhait">Contact préféré</label><br>
+        <select id="contact souhait" multiple>
+            <option value="email">Email</option>
+            <option value="téléphone">téléphone</option>
+        </select><br>
+    
+        <label for="message_sup">Message complémentaire</label><br>
+        <textarea rows="5" cols="50">Message complémentaire:</textarea>
+    </form>
+    </body>
+    </html>
+</body>
+</html>
